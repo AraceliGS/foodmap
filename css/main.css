@@ -11,13 +11,20 @@ body {
   padding: 0;
 }
 
+/* Estilos al splash*/
+
+/* Clases generales */
+
+.vh100 {
+  height: 100vh;
+}
+
 /* Estilos al contenedor del título*/
 
 .flex-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 /* Estilos al título */
@@ -25,4 +32,37 @@ body {
 .title {
   font-size: 4em;
   padding-left: 0.2em;
+}
+
+/* Estilos a la vista inicial */
+
+.other-height {
+  height: 13vh;
+}
+/*Estilos a los cuadrados blancos*/
+.white-square-1, .white-square-2 {
+  border: 3px solid #fff;
+  height: 3.05vh;
+  width: 3.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.white-square-1 {
+  position: relative;
+  left: 0.9em;
+}
+
+.white-square-2 {
+  position: relative;
+  right: 0.9em;
+}
+/* Estilos a la línea horizontal */
+.header-hr {
+  border: 2px solid #fff;
+  width: 89%;
+}
+/* Estilo para ambos elementos */
+.white-square-1, .white-square-2, .header-hr {
+  display: inline-block;
 }
