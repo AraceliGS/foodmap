@@ -1,0 +1,28 @@
+/* Estilos generales */
+
+* {
+  font-family: 'Raleway', sans-serif !important;
+  color: #f58827;
+}
+
+body {
+  background-color: #221e1c;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos al contenedor del título*/
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Estilos al título */
+
+.title {
+  font-size: 4em;
+  padding-left: 0.2em;
+}
