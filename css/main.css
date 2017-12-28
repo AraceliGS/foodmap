@@ -93,7 +93,7 @@ body {
 }
 
 .select-like {
-  margin-top: 0.5em;
+  margin-top: 0.8em;
 }
 
 /* Última sección */
@@ -103,6 +103,14 @@ body {
   margin-bottom: 3em;
 }
 
+.big-image {
+  width: 44vw;
+}
+
+.small-image {
+  width: 30vw;
+}
+
 .image-container {
   background-color: transparent;
   border: none;
@@ -110,6 +118,7 @@ body {
 
 .col-xs-6 img {
   height: 25vh;
+  width: 50vw;
 }
 
 .col-xs-4 img {
