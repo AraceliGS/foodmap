@@ -12,25 +12,68 @@
   <body>
     <!-- Contenido principal -->
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <!-- Encabezado -->
-            <header>
+      <!-- Encabezado -->
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
               <!-- Contenedor del título principal -->
-              <div class="flex-container other-height">
-                <h1 class="title">Foodmap</h1>
+              <div class="flex-container flex-end other-height">
+                <h1 class="title no-margin">Foodmap</h1>
               </div>
               <!-- Decoración del encabezado -->
-              <div class="flex-container">
-                <div class="white-square-1"></div>
+              <div class="flex-container flex-start header-design">
+                <div class="white-square"></div>
                 <hr class="header-hr">
-                <div class="white-square-2"></div>
+                <div class="white-square"></div>
               </div>
-            </header>
+            </div>
           </div>
         </div>
-      </div>
+      </header>
+      <!-- Sección contenedora del mapa-->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="container-map">
+                <img src="../assets/images/image1.png" alt="Mapa" class="img-responsive center-block">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sección contenedora del filtro -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="container-filter text-center">
+                <h2 class="second-title">Comida cerca de ti</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="input-group select">
+                <input type="text" class="form-control" aria-label="...">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div><!-- /btn-group -->
+              </div><!-- /input-group -->
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../js/restaurants-filter.js"></script>
