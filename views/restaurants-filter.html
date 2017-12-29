@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Foodmap</title>
+    <title>Filter</title>
     <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
   </head>
@@ -58,19 +57,16 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <div class="input-group select-like">
-                  <input type="text" class="form-control" aria-label="...">
-                  <div class="input-group-btn">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></button>
-                    <ul class="dropdown-menu dropdown-menu-right">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                    </ul>
-                  </div><!-- /btn-group -->
-                </div><!-- /input-group -->
+              <div class="form-group">
+                <div class="input-group select-like">
+                    <input type="text" class="form-control gray-background input" placeholder="filtrar restaurantes" aria-label="...">
+                    <span class="input-group-btn gray-background">
+                      <button class="btn btn-default button" type="button">
+                        <span class="glyphicon glyphicon-search gray"></span>
+                      </button>
+                    </span>
+                  </div>
+              </div>
             </div>
           </div>
         </div>

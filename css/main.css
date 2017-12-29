@@ -1,7 +1,7 @@
 /* Estilos generales */
 
 * {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway', sans-serif;
   color: #f58827;
 }
 
@@ -65,7 +65,7 @@ body {
 /* Estilos a la línea horizontal */
 .header-hr {
   border: 2px solid #fff;
-  width: 89%;
+  width: 89.5%;
   margin-right: 0;
   margin-left: 0;
 }
@@ -93,14 +93,48 @@ body {
 }
 
 .select-like {
-  margin-top: 0.8em;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.gray {
+  color: #e2e8e8;
+}
+
+.gray-background {
+  background-color: #f2e8e8;
+}
+
+.input {
+  border-radius: 0;
+  font-size: 1.8em;
+  padding: 18px 38px;
+}
+
+.input::placeholder {
+  color: #000;
+}
+
+.input-group-btn button {
+  background-color: #000;
+}
+
+.button {
+  padding: 3px 8px;
+  border-radius: 5px;
+  width: 99%;
+}
+
+.glyphicon-search {
+  font-size: 1.5em;
 }
 
 /* Última sección */
 
 .image-section {
   margin-top: 6.3em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .big-image {
